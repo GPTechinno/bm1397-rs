@@ -55,9 +55,9 @@ pub enum Reg {
     PLL2DIV = 0x78,
     /// Address of the PLL3 Divider register.
     PLL3DIV = 0x7C,
-    /// Address of the Clock Order Control0 register.
+    /// Address of the Clock Order Control register, index 0.
     CLKORDCTRL0 = 0x80,
-    /// Address of the Clock Order Control1 register.
+    /// Address of the Clock Order Control register, index 1.
     CLKORDCTRL1 = 0x84,
     /// Address of the Clock Order Status register.
     CLKORDSTAT = 0x8C,
